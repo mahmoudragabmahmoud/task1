@@ -1,0 +1,105 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="New folder/fontawesome-all.min.css"/>
+<link rel="stylesheet" href="New folder/bootstrap.min.css" />
+<link rel="stylesheet" href="New folder/Untitled-3.css" />
+</head>
+
+<body>
+<div id="slider-container">
+    
+        
+    <img class="slide" src="images/1.jpg"/>    
+    <img class="slide" src="images/2.jpg"/>    
+    <img class="slide" src="images/3.jpg"/>    
+    <img class="slide" src="images/4.jpg"/>    
+        
+<button class="btn" id="next" onClick="show(1)">
+    <i class="fas fa-arrow-right"></i>
+</button>        
+<button class="btn" id="prev" onClick="show(-1)">
+    <i class="fas fa-arrow-left"></i>
+        
+</button>        
+        
+    </div>    
+        <!--section2 started-->
+
+        
+
+<div class="container py-5">
+        
+        
+    <h2>phone Book
+        
+    <button id="btnToggle" onClick="toggleForm()" class="btn btn-warning btn-sm">hide
+    <i class="fas fa-arrow-alt-circle-up"></i>    
+    </button>    
+    </h2>    
+        
+        
+    <div id="form-container">    
+<div class="form-group">        
+    <label>username :</label>    
+    <input required id="uname" type="text" class="form-control"/>    
+</div>
+        
+        
+        
+<div class="form-group">        
+    <label>Phone :</label>    
+    <input id="uphone" type="text" class="form-control"/>    
+</div>
+        
+        
+        
+        
+<div class="form-group">        
+    <label>E-mail :</label>    
+    <input id="umail" type="text" class="form-control"/>    
+</div>
+        
+        
+        
+        
+<div class="form-group">        
+    <label>Location :</label>    
+    <input id="ulocation" type="text" class="form-control"/>    
+</div>
+                
+        
+    <button onClick="addRecord()" class="btn btn-info float-right">add</button>    
+        
+    <div class="clearfix"></div>    
+        
+</div>  
+
+<!--gghhhhhhhhhhhhhh-->
+<!--section2 started-->
+
+<h1 id="demo"></h1>
+
+<div class="continar py-4">
+<input id="username" type="text" class="form-control" />
+<button onclick="welcomeuser()" class="btn btn-info float-right mt-3">login</button>
+</div>
+<div class="container py-5">
+<h1 id="head" > eeb desgin and devlopment</h1>
+<button onclick="desginHeading()" class="bt btn-danger">desginMe</button>
+</div>
+<table class="table text-center table-striped">
+<thead>
+<th>Name</th>
+<th>Age</th>
+<th>sallary</th>
+
+</thead>
+<tbody id="tableResult"></tbody>
+</table>
+<script src="Untitled-2.js"></script>
+
+</body>
+</html>
